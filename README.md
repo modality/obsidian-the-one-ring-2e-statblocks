@@ -6,16 +6,16 @@ Many thanks to @ben for creating the [13th Age statblocks plugin](https://github
 
 ### Development
 
--   Clone this repo.
--   `npm i` or `yarn` to install dependencies
--   `npm run dev` to start compilation in watch mode.
+- Clone this repo.
+- `npm i` or `yarn` to install dependencies
+- `npm run dev` to start compilation in watch mode.
 
 ### Manually installing the plugin
 
--   Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/tor2e-statblocks/`.
-    -   If you ran `npm run dev`, these will be in the root folder.
-    -   Pre-built versions of these files can be found in the `dist` folder.
--   In Obsidian, navigate to Preferences > Community plugins. Toggle `The One Ring 2E Statblocks` on.
+- Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/tor2e-statblocks/`.
+  - If you ran `npm run dev`, these will be in the root folder.
+  - Pre-built versions of these files can be found in the `dist` folder. I have only tested these on Mac OSX so far.
+- In Obsidian, navigate to Preferences > Community plugins. Toggle `The One Ring 2E Statblocks` on.
 
 ### Create a statblock
 
@@ -25,25 +25,25 @@ The parameters in the statblock are parsed as YAML. Certain Obsidian conventions
 
 #### Fields
 
--   `name` - Adversary name
--   `blurb` or `description` - The flavor-text description about the adversary.
-    -   This field is rendered as Markdown: Obsidian links `[[]]` will work here.
--   `features` - A list of distinctive features
--   `level` - The attribute level of the adversary
--   `endurance` - Endurance points
--   `might` - Might rating
--   `hate` or `resolve` - Use either of these, the right label will appear
--   `parry` - Parry rating
--   `armour` or `armor` - Armour rating
--   `proficiencies` - Combat proficiencies. These are represented by a list of YAML dictionaries in the following format:
-    -   `name` - The attack name
-    -   `rating` - The attack rating
-    -   `damage` - The damage rating
-    -   `injury` - The injury threshold
-    -   `special` - Special damage opportunities
-        -   This field is rendered as Markdown: Obsidian links `[[]]` will work here. If they are not rendering as links, try wrapping the brackets in double quotes.
--   `abilities` - A list of Fell Abilities
-    -   This field is rendered as Markdown: Obsidian links `[[]]` will work here. If they are not rendering as links, try wrapping the brackets in double quotes.
+- `name` - Adversary name
+- `blurb` or `description` - The flavor-text description about the adversary.
+  - This field is rendered as Markdown: Obsidian links `[[]]` will work here.
+- `features` - A list of distinctive features
+- `level` - The attribute level of the adversary
+- `endurance` - Endurance points
+- `might` - Might rating
+- `hate` or `resolve` - Use either of these, the right label will appear
+- `parry` - Parry rating
+- `armour` or `armor` - Armour rating
+- `proficiencies` - Combat proficiencies. These are represented by a list of YAML dictionaries in the following format:
+  - `name` - The attack name
+  - `rating` - The attack rating
+  - `damage` - The damage rating
+  - `injury` - The injury threshold
+  - `special` - Special damage opportunities
+    - This field is rendered as Markdown: Obsidian links `[[]]` will work here. If they are not rendering as links, try wrapping the brackets in double quotes.
+- `abilities` - A list of Fell Abilities
+  - This field is rendered as Markdown: Obsidian links `[[]]` will work here. If they are not rendering as links, try wrapping the brackets in double quotes.
 
 #### Example
 
