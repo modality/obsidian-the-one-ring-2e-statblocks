@@ -108,7 +108,7 @@
 }
 
 .statblock-tor2e .attr-diamond-text {
-	color: #fff;
+	color: var(--currentcolor);
 	display: table-cell;
 	width: 2em;
 	height: 2em;
