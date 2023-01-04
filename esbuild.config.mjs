@@ -12,17 +12,17 @@ if you want to view the source, please visit the github repository of this plugi
 const prod = (process.argv[2] === 'production');
 
 esbuild.build({
-	banner: {
-		js: banner,
-	},
-	entryPoints: ['main.ts'],
-	bundle: true,
-	external: ['obsidian', 'electron', ...builtins],
-	format: 'cjs',
-	watch: !prod,
-	target: 'es2016',
-	logLevel: "info",
-	sourcemap: prod ? false : 'inline',
-	treeShaking: true,
-	outdir: '.'
+    banner: {
+        js: banner,
+    },
+    entryPoints: ['main.ts'],
+    bundle: true,
+    external: ['obsidian', 'electron', ...builtins],
+    format: 'cjs',
+    watch: !prod,
+    target: 'es2016',
+    logLevel: "info",
+    sourcemap: prod ? false : 'inline',
+    treeShaking: true,
+    outdir: '.'
 }).catch(() => process.exit(1));
