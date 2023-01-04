@@ -7,7 +7,7 @@ import { StatblockRenderer } from "statblockrenderer";
 
 // const srdData = require("data.json");
 
-export default class ArchmagePlugin extends Plugin {
+export default class OneRingPlugin extends Plugin {
     async onload() {
         this.registerMarkdownCodeBlockProcessor(
             "tor2e",

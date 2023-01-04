@@ -4,6 +4,8 @@ This plugin renders adversary statblocks for The One Ring, Second Edition.
 
 Many thanks to @ben for creating the [13th Age statblocks plugin](https://github.com/ben/obsidian-13th-age-statblocks) from which this plugin is adapted.
 
+Thanks to @vehrka for their styling contributions.
+
 ### Development
 
 - Clone this repo.

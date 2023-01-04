@@ -1,9 +1,13 @@
 .statblock-tor2e {
-    max-width: 400px;
+    max-width: 100%;
 }
 
 .statblock-tor2e .fl-r {
     float: right;
+}
+
+.statblock-tor2e .maxw {
+    max-width: 380px;
 }
 
 .statblock-tor2e .clear {
@@ -35,7 +39,7 @@
 .statblock-tor2e h5,
 .statblock-tor2e h6
 {
-    font-weight: lighter;
+    font-weight: 200;
 }
 
 /* Easy styling for spans */
@@ -112,6 +116,12 @@
     display: table-cell;
     width: 2em;
     height: 2em;
+    font-weight: bold;
     transform: rotate(-45deg);
     vertical-align: middle;
+}
+
+.statblock-tor2e .attr-diamond-text.lifted {
+    vertical-align: baseline;
+    line-height: 1.9em;
 }
