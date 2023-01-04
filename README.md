@@ -16,7 +16,7 @@ Thanks to @vehrka for their styling contributions.
 
 - Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/tor2e-statblocks/`.
   - If you ran `npm run dev`, these will be in the root folder.
-  - Pre-built versions of these files can be found in the `dist` folder. I have only tested these on Mac OSX so far.
+  - Pre-built versions of these files can be found in the [releases](https://github.com/modality/obsidian-the-one-ring-2e-statblocks/releases).
 - In Obsidian, navigate to Preferences > Community plugins. Toggle `The One Ring 2E Statblocks` on.
 
 ### Create a statblock
